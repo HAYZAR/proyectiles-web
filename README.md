@@ -1,23 +1,39 @@
-# Movimiento de Proyectiles · Física Interactiva
+# Movimiento de Proyectiles · Repositorio docente
 
-Aplicación web educativa estática para trabajar movimiento de proyectiles en educación media.
+Repositorio web estático de apoyo docente para trabajar el movimiento de proyectiles en educación media.
 
-## Actividades
+El propósito del sitio no es funcionar como una aplicación interactiva para estudiantes, sino reunir en un mismo lugar **orientaciones de aplicación, sugerencias didácticas, criterios de evaluación e imprimibles**.
 
-- 20 tarjetas de retos interactivas.
-- Cómic sin diálogos con guardado local.
+## Propuestas incluidas
+
+- Caleidoscopio de conceptos físicos.
+- 20 tarjetas de retos.
+- Cómic sin diálogos para construir explicaciones.
 - Cajas de conceptos.
-- Cubos generadores de problemas.
-- Juego de tablero **Misión Proyectil**.
-- Calculadora de lanzamiento oblicuo.
+- Cubos didácticos generadores de problemas.
+- Tablero **Misión Proyectil**.
 - Orientaciones docentes y rúbrica.
+
+## Recursos
+
+La carpeta `resources/` contiene los materiales imprimibles disponibles en PDF y PNG. La página `resources.html` funciona como catálogo visual y enlaza cada imprimible con su ficha de aplicación didáctica.
+
+## Uso sugerido
+
+Los recursos pueden emplearse de manera independiente o como estaciones de un taller. Una secuencia posible es:
+
+1. Activación con una tarjeta conceptual.
+2. Exploración con caleidoscopio o cajas.
+3. Construcción de explicaciones mediante el cómic.
+4. Aplicación con los cubos.
+5. Cierre y evaluación con el tablero Misión Proyectil.
 
 ## Publicación en GitHub Pages
 
-El proyecto no requiere compilación, Node ni dependencias. En **Settings → Pages**, selecciona **Deploy from a branch**, rama `main` y carpeta `/ (root)`.
+El proyecto no requiere compilación, Node ni dependencias. Está diseñado con HTML y CSS para publicarse directamente desde la rama `main` mediante GitHub Pages.
 
-Sitio esperado: `https://hayzar.github.io/proyectiles-web/`
+Sitio: `https://hayzar.github.io/proyectiles-web/`
 
 ## Modelo físico
 
-Las actividades trabajan principalmente el modelo ideal sin resistencia del aire. En la calculadora, lanzamiento y llegada se consideran al mismo nivel.
+Las propuestas trabajan principalmente el modelo ideal del movimiento de proyectiles, despreciando la resistencia del aire y considerando aceleración gravitatoria constante.
